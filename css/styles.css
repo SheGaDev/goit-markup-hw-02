@@ -58,8 +58,6 @@ body {
 
 .filter-buttons {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
@@ -185,9 +183,9 @@ body {
     text-transform: uppercase;
     color: #f4f4fd;
 }
-/* /MAIN */
+/* === /MAIN === */
 
-/* PORTFOLIO */
+/* === PORTFOLIO === */
 .menu-flt-head {
     font-size: 20px;
     line-height: 1.2;
@@ -196,8 +194,8 @@ body {
 }
 .menu-flt {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/* === /PORTFOLIO === */
