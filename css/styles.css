@@ -6,7 +6,7 @@
     --active-btn-color: #404bbf;
     --primary-logo-color: #4d5ae5;
     --address-color: #434455;
-    --footer-logo-color: #f4f4fd;
+    --footer-logo-color: #4d5ae5;
 }
 
 body {
@@ -97,11 +97,15 @@ body {
 .menu-nav-item {
     font-weight: 500;
     letter-spacing: 0.02em;
+}
+.menu-color {
     color: var(--primary-color);
 }
 .menu-address-item {
     font-weight: 400;
     letter-spacing: 0.02em;
+}
+.menu-address-color {
     color: var(--address-color);
 }
 /* /HEADER */
@@ -201,6 +205,7 @@ body {
 
 /* === PORTFOLIO === */
 .menu-flt-head {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
