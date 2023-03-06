@@ -5,15 +5,16 @@
     --secondary-color: #ffffff;
     --active-btn-color: #404bbf;
     --primary-logo-color: #4d5ae5;
+    --address-color: #434455;
 }
 body {
     font-family: var(--primary-font);
     color: #434455;
 }
 .link {
+    color: var(--primary-color);
     text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -22,13 +23,17 @@ body {
 .link:focus {
     color: var(--active-btn-color);
 }
+.link-address {
+    font-style: normal;
+    color: var(--address-color);
+}
 
 /* === COMPONENTS === */
 .list {
     list-style: none;
 }
 .header-logo {
-    color: var(--primary-logo-color);
+    color: var(--primary-color);
 }
 .footer-logo {
     color: #f4f4fd;
@@ -110,6 +115,7 @@ body {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     display: flex;
     align-items: center;
