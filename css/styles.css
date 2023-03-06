@@ -43,7 +43,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-color);
+    color: var(--primary-logo-color);
 }
 
 .title {
