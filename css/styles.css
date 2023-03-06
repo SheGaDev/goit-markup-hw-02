@@ -6,7 +6,7 @@
     --active-btn-color: #404bbf;
     --primary-logo-color: #4d5ae5;
     --address-color: #434455;
-    --footer-logo-color: #4d5ae5;
+    --footer-logo-color: #f4f4fd;
 }
 
 body {
@@ -37,7 +37,16 @@ body {
     color: var(--primary-color);
 }
 .footer-logo {
-    color: #f4f4fd;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-logo-color);
 }
 .logo {
     font-family: var(--secondary-font);
@@ -188,18 +197,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #e7e9fc;
-}
-.footer-logo {
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--footer-logo-color);
 }
 /* === /MAIN === */
 
