@@ -33,6 +33,18 @@ body {
 .list {
     list-style: none;
 }
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-logo-color);
+}
 .header-logo {
     color: var(--primary-color);
 }
@@ -47,18 +59,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--footer-logo-color);
-}
-.logo {
-    font-family: var(--secondary-font);
-    font-weight: 800;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-logo-color);
 }
 
 .title {
